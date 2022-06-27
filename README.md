@@ -19,4 +19,5 @@ Includes :
 - FBI (cia)
 - lumaupdater (cia)
 - Universal-Updater (cia)
+- h3s 1.3.1 (cia)
 ```
