@@ -1,9 +1,14 @@
 # LumaPack
-Pack to hack the 3DS in 11.15 with PicHaxx
+Pack to hack the 3DS in 11.15 with PicHaxx et NtrBoothax
 
 Includes : 
+# Release
 ```
-- Boot9strap 1.4
+- LumaPack NTRBootHax
+- LumaPack PicHaxx
+```
+# Inside the SD/Micro SD
+```- Boot9strap 1.4
 - Luma 11.0 3GX
 - Godmode9 2.1.1
 - ctr-no-timeoffset (homebrew)
