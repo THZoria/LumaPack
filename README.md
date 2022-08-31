@@ -6,7 +6,7 @@ Includes :
 ```
 - LumaPack NTRBootHax (11.16)
 - LumaPack PicHaxx (11.15)
-- LumaPack USM (11.16
+- LumaPack USM (11.16)
 ```
 # Inside the SD/Micro SD
 ```- Boot9strap 1.4
