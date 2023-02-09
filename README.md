@@ -29,4 +29,5 @@ Includes :
 - Update the Pichaxx package to 11.16 [ ]
 - Added a procedure/tutorial for NtrBootHax, Pichaxx and USM [ ]
 - LumaPack-Vanilla creation script (fetcher) [ ]
+- Create LumaPack BootAnim9 with a tutorial on how to use / configure [ ]
 ```
