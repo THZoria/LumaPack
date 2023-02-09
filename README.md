@@ -25,5 +25,5 @@ Includes :
 
 # Roadmap
 
-Update the Pichaxx package to 11.16 [ ]
-Added a procedure/tutorial for NtrBootHax, Pichaxx and USM [ ]
+- Update the Pichaxx package to 11.16 [ ]
+- Added a procedure/tutorial for NtrBootHax, Pichaxx and USM [ ]
