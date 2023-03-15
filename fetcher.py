@@ -46,7 +46,7 @@ if not os.path.exists("SD/boot9strap"):
     
 
 # Remplacez "votre_token" par votre propre token d'accès généré depuis votre compte GitHub
-token = "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"
+token = "votre_token"
 
 # Se connecter à l'API GitHub avec l'authentification par token
 g = Github(token)
