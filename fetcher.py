@@ -37,8 +37,8 @@ if not os.path.exists(os.path.join("SD", "luma")):
     os.mkdir(os.path.join("SD", "luma"))
 
 # Créer le dossier payload dans le dossier luma du dossier SD s'il n'existe pas
-if not os.path.exists("SD/luma/payload"):
-    os.makedirs("SD/luma/payload")
+if not os.path.exists("SD/luma/payloads"):
+    os.makedirs("SD/luma/payloads")
 
 # Créer le dossier payload dans le dossier luma du dossier SD s'il n'existe pas
 if not os.path.exists("SD/boot9strap"):
@@ -119,7 +119,7 @@ print(f"{repo_name} - Dernière version: {latest_release.tag_name}")
 # Déplacer le fichier dans le dossier "SD/luma/payload" s'il s'agit de GodeMode9 (GodMode9.firm)
 filename = "GodMode9.firm"
 if (os.path.exists(os.path.join("temp", filename))):
-    destination_folder = os.path.join("SD", "luma", "payload")
+    destination_folder = os.path.join("SD", "luma", "payloads")
     os.makedirs(destination_folder, exist_ok=True)
     shutil.move(os.path.join("temp", filename), os.path.join(
         destination_folder, os.path.basename(filename)))
