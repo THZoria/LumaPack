@@ -1,12 +1,16 @@
 # LumaPack
-Pack to hack the 3DS in 11.15 with PicHaxx and NtrBoothax and USM in 11.16 (Picchaxx does not work in 11.16)
+Pack to hack the 3DS in 11.17 Firmware
 
 Includes : 
 # Release
 ```
-- LumaPack NTRBootHax (11.16)
-- LumaPack PicHaxx (11.15)
-- LumaPack USM (11.16)
+- LumaPack-Vanilla (Old 3DS and New 3DS) - All firmware
+- LumaPack-Browserhax (New 3DS) - Firmware 11.17
+- LumaPack-Kartminer7 (Old 3DS and New 3DS) - Firmware 11.17
+- LumaPack-Ntrboothax (Old 3DS and New 3DS) - All Firmware 
+- LumaPack-Pichaxx (Old 3DS and New 3DS) - Firmware 11.4 to Firmware 11.15
+- LumaPack-USM (Old 3DS and New 3DS) - Firmware 11.4 to Firmware 11.16
+- LumaPack-MSET9 (Old 3DS and New 3DS) - Firmware 11.4 to Firmware 11.17
 ```
 # Inside the SD/Micro SD
 ```- Boot9strap 1.4
