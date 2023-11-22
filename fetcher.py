@@ -99,22 +99,14 @@ for repo_name in repos:
     # Afficher le nom du dépôt et la version la plus récente
     print(f"{repo_name} - Dernière version: {latest_release.tag_name}")
 
-# Télécharger le fichier 3hs.cia dans le dossier "temp"
-url = "https://download2.erista.me/3hs/3hs.cia"
-filename = os.path.join("temp", "3hs.cia")
-with open(filename, "wb") as f:
-    response = requests.get(url)
-    f.write(response.content)
 
 # Déplacer le fichier dans le dossier "SD/cias"
 destination_folder = os.path.join("SD", "cias")
 os.makedirs(destination_folder, exist_ok=True)
 shutil.move(filename, os.path.join(destination_folder, os.path.basename(filename)))
 
-
     # Afficher le nom du dépôt et la version la plus récente
 print(f"{repo_name} - Dernière version: {latest_release.tag_name}")
-
 
 # Déplacer le fichier dans le dossier "SD/luma/payload" s'il s'agit de GodeMode9 (GodMode9.firm)
 filename = "GodMode9.firm"
@@ -163,7 +155,6 @@ if os.path.exists(os.path.join("temp", folder)):
     shutil.move(os.path.join("temp", folder),
                 os.path.join(destination_folder, folder))
     
-
     # Compression du dossier source dans le fichier ZIP de destination
 with zipfile.ZipFile(destination_zip, 'w', zipfile.ZIP_DEFLATED) as zip_file:
     for root, dirs, files in os.walk(source_folder):
