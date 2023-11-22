@@ -34,6 +34,18 @@ Includes :
 - Create LumaPack BootAnim9 with a tutorial on how to use / configure [ ]
 ```
 
+# Use
+
+```
+In order to use the LumaPack fetcher to generate a Vanilla Pack, you must install the necessary python dependencies: 
+
+- requests
+- zipfile
+- pygithub
+
+You'll also need to modify the main.py file at line 49 and add a github token for it to work.
+```
+
 # Credit
 
 ```
