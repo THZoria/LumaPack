@@ -99,6 +99,13 @@ for repo_name in repos:
     # Afficher le nom du dépôt et la version la plus récente
     print(f"{repo_name} - Dernière version: {latest_release.tag_name}")
 
+# Télécharger le fichier 3hs.cia dans le dossier "temp"
+url = "https://download2.erista.me/3hs/3hs.cia"
+filename = os.path.join("temp", "3hs.cia")
+with open(filename, "wb") as f:
+    response = requests.get(url)
+    f.write(response.content)
+
 
 # Déplacer le fichier dans le dossier "SD/cias"
 destination_folder = os.path.join("SD", "cias")
