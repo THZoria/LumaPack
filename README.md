@@ -13,8 +13,9 @@ Includes :
 - LumaPack-MSET9 (Old 3DS and New 3DS) - Firmware 11.4 to Firmware 11.17
 ```
 # Inside the SD/Micro SD
-```- Boot9strap 1.4
-- Luma 13.0.2
+```
+- Boot9strap 1.4
+- Luma 13.1
 - Godmode9 2.1.1
 - ctr-no-timeoffset (homebrew)
 - FBI.3dsx (homebrew)
