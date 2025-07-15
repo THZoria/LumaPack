@@ -15,7 +15,7 @@ Includes :
 # Inside the SD/Micro SD
 ```
 - Boot9strap 1.4
-- Luma 13.3
+- Luma 13.3.3
 - Godmode9 2.1.1
 - ctr-no-timeoffset (homebrew)
 - FBI.3dsx (homebrew)
